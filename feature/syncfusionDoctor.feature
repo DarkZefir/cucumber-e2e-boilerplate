@@ -20,9 +20,9 @@ Feature: SyncfusionDoctor
     And click 'Save Button';
     Then info 'Dr. Jane Dou' should be find in 'Doctor List';
     And click 'New Doctor';
-    Then info '$docName' should be find in 'TableRow >#1 of Doctor Table Row';
-    Then info '$educationForAssert' should be find in 'TableRow >#2 of Doctor Table Row';
-    Then info '$experience' should be find in 'TableRow >#3 of Doctor Table Row';
+    Then info '$docName' should be find in 'Table Row >#1 of Doctor Table Row';
+    Then info '$educationForAssert' should be find in 'Table Row >#2 of Doctor Table Row';
+    Then info '$experience' should be find in 'Table Row >#3 of Doctor Table Row';
     Then info '$timeExperience' should be find in 'Assert Time Experience';
     Then info '$workTime' should be find in 'Assert Work Time';
     Then info '$docMobileAssertion' should be find in 'Assert Doc Mobile';
